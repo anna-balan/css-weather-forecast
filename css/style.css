@@ -1,0 +1,115 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	min-height:100%;
+
+}
+html{
+	height: 100%;
+}
+
+*{transition: all .1s ease-in;}
+body{
+	background: #39C;
+	border:15px solid #2B81AC;
+	font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	color:white;
+}
+
+
+h2, .city-name{
+	font-weight: lighter;
+	margin-top: 15px;
+margin-bottom: 10px;
+}
+
+ul{padding:0;
+	list-style:none;
+	font-size:0;
+	border:2px solid white;
+}
+.city{
+	border:2px solid white;
+	box-sizing: border-box;
+	font-size:15px;
+	display: inline-block;
+	text-align: center;
+	}
+
+
+.allcities, .header, .end{
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.lisbon{
+	width: 50%;
+	background: #39C;
+}
+.paris{
+	width: 25%;
+	background: #3CC;
+}
+.belgrad{
+	width: 25%;
+	background: #969;
+}
+.moscow{
+	width: 25%;
+	background: #C24747;
+}
+.tel-aviv{
+	width: 25%;
+	background: #E2674A;
+}
+.cair{
+	width: 25%;
+	background: #FC6;
+}
+.new-york{
+	width: 25%;
+	background: #9C9;
+}
+.new-delhi{
+	width: 25%;
+	background: #699;
+}
+.san-francisco{
+	width: 50%;
+	background: #C69;
+}
+.tokyo{
+	width: 25%;
+	background: #396;
+}
+.sydney{
+	width: 100%;
+	background: #669;
+}
+
+.temperature{
+	display: inline;
+	vertical-align: center;
+	opacity: 0.5;
+	font-size:20px;
+
+}
+.temperature + .wi{
+	font-size:30px;
+	opacity: 0.5;
+padding-bottom: 25px;
+}
+.wi-celsius{
+	font-size:30px;
+}
+
+
+ul:hover li {
+   opacity: 0.5;
+}
+ul:hover li:hover {
+  opacity:1;
+}
+/*.temperature:after{
+	content:" °C";
+}*/
